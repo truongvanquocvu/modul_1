@@ -8,20 +8,15 @@
 </head>
 <body>
     <script>
-      
-     let a= prompt('nhập biến a: ');
-     let b= prompt('nhập biến b: ');
-      if (a%b ==0) {
-        alert('a chia hết cho b');
-       } else {
-        alert(' a không chia hết cho b')
+    let inputwidth;
+    let inputheight;
 
-       }
-    a
-    
- 
-      
-
+    inputwidth  = prompt("enter the width");
+    inputHeight = prompt("enter the Height");
+    let width = parseInt(inputwidth);
+    let Height = parseInt(inputHeight);
+    let area = width * Height;
+    document.write("the are is:" + area);
 
     </script>
 </body>
