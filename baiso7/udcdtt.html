@@ -1,38 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-<table>
-    <tr>
-        <td>Amount</td>
-        <td>From Curency</td>
-        <td> To Currency</td>
-    </tr>
-    <tr>
-        <td><input type="number" name="" id="a"></td>
-        <td>
-            <select>
-                <option>việt Nam</option>
-                <option>Đô La</option>
+    <table>
+        <tr>
+            <td>Amount</td>
+            <td>From Curency</td>
+            <td> To Currency</td>
+        </tr>
+        <tr>
+            <td><input type="number" name="" id="number"></td>
+            <td>
+                <select id="n1">
+                    <option id="VND">VND</option>
+                    <option id="USD">USD</option>
 
-             </select>
-        </td>
-        <td>
-            <select>
-                <option>USD</option>
-                <option>VND</option>
+                </select>
+            </td>
+            <td>
+                <select id="n2">
+                    <option id="VND">VND</option>
+                    <option id="USD">USD</option>
 
-             </select>
-        </td>
-    </tr>
-    <tr> <td>result:</td></tr>
-    
-</table>
- 
+
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <button onclick="check()">Submit</button>
+
+
+        </tr>
+        <tr>
+            <td id="Result"></td>
+
+
+
+        </tr>
+
+    </table>
+
 </body>
+<script src="/baiso7/hdcdtt.js"></script>
 </html>
