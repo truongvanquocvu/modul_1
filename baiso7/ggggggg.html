@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+</html>
+<BODY>
+
+    <label> vat ly </label>
+    <input id="vatly"/><Br>
+    <label>sinh hoc</label>
+    <input  id="Sinhhoc" /><Br>
+    <label>hoa hoc </label>
+    <input id="hoahoc"/><Br>
+        <p id="result"></p>
+<button onclick='sum();''>trunhgbinhcong</button>
+
+
+
+</body>
+<script>
+{
+    console.log("start");
+    var dvatly =number(document.getElementById("vatly").value);
+    var hoahoc = document.getElementById("hoahoc");
+    var sinhhoc = document.getElementById("sinhhoc");
+
+    var dhoa = number(document.getElementById("hoahoc").value);
+    var dsinhhoc = number(document.getElementById ("sinhhoc").value);
+    var kq = (dvatly +dhoa + dsinhhoc) /3;
+    document.getElementById("result").innerHTML= "kết qua:"+ kq;
+    console.log("finish");
+}
+</script>
+</html>
