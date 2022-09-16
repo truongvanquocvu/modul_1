@@ -11,39 +11,33 @@
 <body>
     <table>
         <tr>
-            <td>Amount</td>
-            <td>From Curency</td>
-            <td> To Currency</td>
+            <th>A Monunt</th>
+            <th> From Currency</th>
+            <th> To Currency</th>
         </tr>
         <tr>
-            <td><input type="number" name="" id="number"></td>
+            <td><input type="text" id="n1"></td>
             <td>
-                <select id="n1">
-                    <option id="VND">VND</option>
-                    <option id="USD">USD</option>
-
+                <select>
+                    <option value="VND">VietNam</option>
+                    <option value="USD">USD</option>
                 </select>
             </td>
             <td>
-                <select id="n2">
-                    <option id="VND">VND</option>
-                    <option id="USD">USD</option>
+                <select>
+                    <option value="USD">USD</option>
+                    <option value="VND">VND</option>
                 </select>
+            </td>
+            <td>
+                <button onclick="nhapvao()" >Cover</button>
             </td>
         </tr>
 
-        <tr>
-            <button onclick="check()">Submit</button>
-
-
-        </tr>
-        <tr>
-            <td id="result2"></td>
-
-
-        </tr>
 
     </table>
+
+    
 
 </body>
 <script src="/baiso7/hdcdtt.js"></script>
