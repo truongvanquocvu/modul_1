@@ -1,12 +1,9 @@
-let message;
-if (login == 'employee') {
-    message= 'hello';
-
-} else if (login == 'director') {
-    message = 'Greetings';
-}  else if (login == '') {
-    message = 'login';
-} else {
-    message ='';
-}
+let login = prompt("Enter:");
+let message = (login == 'Employee') ?
+    'Hello' :
+    (login == 'Director') ?
+      'Greetings' :
+      (login == '') ?
+        'No login' :
+        '';
 alert(message);
